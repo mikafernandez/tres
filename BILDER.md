@@ -70,12 +70,13 @@ Drei Wege, die tatsächlich funktionieren:
 | Behälter | Ø 30 mm, 55 mm hoch, PET, Wandstärke 0,4 mm |
 | Schraubverschluss | Ø 30 mm, 16,5 mm hoch, PP, geriffelte Mantelwand |
 | Gesamthöhe | 71,5 mm |
-| Behältermund | Ø 25 mm Außengewinde, Steigung 3,2 mm |
+| Behältermund | Ø 25 mm Außengewinde, 9 mm Gewindelänge im Verschluss |
 | Austrittsöffnungen | 4 × Ø 1,8 mm auf einem Teilkreis von Ø 14 mm in der Deckfläche |
 | Verschlussglied | Klappe über der Deckfläche, Betätigungslasche steht 2,5 mm über die Mantelwand |
 | Bodeneinzug | Kegelstumpf, Öffnung Ø 23 mm unten, 15,5 mm tief, 7 Grad Wandneigung |
-| Standring | bis Ø 30 mm, steht 0,94 mm über die Siegelfolie hinaus |
-| Füllstand | 20 ml in einem Innenraum von 22 ml, also fast bis zur Schulter |
+| Standring | bis Ø 30 mm, Siegelfläche (Ring Ø 23 bis 27 mm) liegt 1,0 mm zurück |
+| Aufreißlasche | 20 × 12 mm, nach innen auf die Folie zurückgelegt, Griffaussparung im Standring |
+| Füllstand | 20 ml in einem Innenraum von 26 ml, 6 ml Kopfraum — Spiegel deutlich unter der Schulter |
 
 ### Farben und Licht
 
@@ -102,7 +103,7 @@ Grund und werden formatfüllend beschnitten.
 
 | Datei | Motiv |
 |---|---|
-| `ritual-01.webp` | Eine Hand hält die Flasche schräg, Klappe hochgeschwenkt, Salz rieselt aus den vier Öffnungen auf den Handrücken. Der Verschluss ist noch aufgeschraubt. |
+| `ritual-01.webp` | Eine Hand hält die Flasche über Kopf, Klappe hochgeschwenkt, Salz rieselt aus den vier Öffnungen auf den Handrücken. Der Verschluss ist noch aufgeschraubt. |
 | `ritual-02.webp` | Verschluss abgenommen, Flasche am Mund oder kurz davor. Die Klappe ist wieder zu. |
 | `ritual-03.webp` | Flasche über Kopf, Daumen an der Aufreißlasche am Boden, Folie halb abgezogen. |
 
@@ -121,7 +122,7 @@ Markenfremdkörper im Bild.
 |---|---|---|---|
 | `edition-blanco.webp` | Speisesalz, weiß | Limettensaft, hellgrün | die Grundausführung |
 | `edition-chili.webp` | Salz mit Chili, orangerot | Limettensaft | gröberes Korn sichtbar |
-| `edition-sangrita.webp` | Speisesalz | Tomatenzubereitung, tiefrot | Boden 12 Grad geneigt, 17 mm tief |
+| `edition-sangrita.webp` | Speisesalz | Tomatenzubereitung, tiefrot | Bodeneinzug mit 12 statt 7 Grad Wandneigung |
 | `edition-cristal.webp` | Speisesalz | Limettensaft | Behälter aus **Glas** statt PET, schwerer wirkend |
 
 Frontalansicht, Etikett zur Kamera, gleiche Kamera und gleiches Licht wie

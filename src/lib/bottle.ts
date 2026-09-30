@@ -23,7 +23,7 @@ const MM = {
   mouth: 55,
   capTop: 71.5,
   capCollarTop: 57.4,
-  fillTop: 46.5,
+  fillTop: 40, // 20 ml in einem Innenraum von 26 ml
   labelTop: 33,
   labelBottom: 21.5,
   chamberDepth: 15.5, // Bodeneinzug

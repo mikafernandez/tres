@@ -65,7 +65,7 @@ const OUTLINE =
   "M -15 0 L -15 -68 Q -15 -71.5 -11.5 -71.5 L 11.5 -71.5 Q 15 -71.5 15 -68 L 15 0 Z";
 
 /* Neigung je Schritt: salzen, trinken, Limette */
-const TILT = [52, 0, 150];
+const TILT = [140, 0, 150];
 
 function StepGlyph({ step }: { step: number }) {
   const tilt = TILT[step];
@@ -83,7 +83,7 @@ function StepGlyph({ step }: { step: number }) {
         <g transform="translate(0,35.75)">
           {/* Spirituose */}
           <path
-            d="M -14 -1 L -14 -46 L 14 -46 L 14 -1 Z"
+            d="M -14 -1 L -14 -40 L 14 -40 L 14 -1 Z"
             fill="var(--color-gold)"
             opacity={step === 2 ? 0.3 : 0.55}
           />
@@ -180,17 +180,17 @@ function StepGlyph({ step }: { step: number }) {
         <>
           <g fill="var(--color-salt)">
             {[
-              [30, -14],
-              [34, -4],
-              [28, 5],
-              [36, 12],
-              [31, 21],
+              [24, 33],
+              [27, 37],
+              [23, 41],
+              [28, 44],
+              [25, 47],
             ].map(([x, y], i) => (
               <circle key={i} cx={x} cy={y} r="1.6" opacity={0.95 - i * 0.13} />
             ))}
           </g>
           <path
-            d="M 14 34 Q 32 26 50 33"
+            d="M 6 52 Q 25 46 46 52"
             fill="none"
             stroke="var(--color-salt)"
             strokeWidth="1.4"

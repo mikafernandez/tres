@@ -113,7 +113,7 @@ function EditionGlyph({
         />
       )}
       {/* Spirituose */}
-      <path d="M -14 -1 L -14 -47 L 14 -47 L 14 -1 Z" fill="#c2822a" opacity="0.55" />
+      <path d="M -14 -1 L -14 -40 L 14 -40 L 14 -1 Z" fill="#c2822a" opacity="0.55" />
       {/* Bodenkammer */}
       <path d="M -11 -1 L -9.6 -16 L 9.6 -16 L 11 -1 Z" fill={bottom} opacity="0.9" />
       {/* Vorratskammer im Verschluss */}

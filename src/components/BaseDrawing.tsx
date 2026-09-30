@@ -23,7 +23,7 @@ const WALL = 0.62; // Wandstärke, überzeichnet
 const HALF = WALL / 2;
 const FOIL = 0.5; // Folie, überzeichnet (tatsächlich 62 µm)
 const TOP = -23; // oberer Bildrand
-const LEVEL = APEX_Y + 1.5; // 5,0 ml in einer Kammer von 5,43 ml
+const LEVEL = APEX_Y + 1.5; // 5,0 ml in einer Kammer von rund 5,4 ml
 
 export default function BaseDrawing({
   peeled,
@@ -113,12 +113,13 @@ export default function BaseDrawing({
             fill={fill("100", "var(--color-agave-ink)")}
           />
         ))}
-        {/* Lasche, 10 mm lang, liegt innerhalb des Standrings */}
+        {/* Lasche, 20 mm lang, nach innen auf die Folie zurückgelegt;
+            sie endet innerhalb des Standrings */}
         <path
           d={`M ${R_RING_I} ${SEAL_Y + FOIL}
               L ${R_RING_I - 1.1} ${SEAL_Y + FOIL + 0.75}
-              L ${R_RING_I - 8.6} ${SEAL_Y + FOIL + 0.75}
-              L ${R_RING_I - 8.6} ${SEAL_Y + FOIL} Z`}
+              L ${R_RING_I - 20} ${SEAL_Y + FOIL + 0.75}
+              L ${R_RING_I - 20} ${SEAL_Y + FOIL} Z`}
           fill={fill("120", "var(--color-agave)")}
         />
       </g>
@@ -146,12 +147,12 @@ export default function BaseDrawing({
         opacity="0.45"
       />
 
-      {/* Der Standring hält die Folie 0,94 mm über der Unterlage */}
+      {/* Die Siegelfläche liegt 1,0 mm hinter der Aufstandsebene zurück */}
       <g stroke="var(--color-ink)" strokeWidth="0.16" opacity="0.65">
-        <line x1="-17.4" y1="0" x2="-17.4" y2={SEAL_Y + FOIL} />
+        <line x1="-17.4" y1="0" x2="-17.4" y2={SEAL_Y} />
         <line x1="-18.4" y1="0" x2="-16.4" y2="0" />
-        <line x1="-18.4" y1={SEAL_Y + FOIL} x2="-16.4" y2={SEAL_Y + FOIL} />
-        <line x1="-16.4" y1={SEAL_Y + FOIL} x2="-13.4" y2={SEAL_Y + FOIL} opacity="0.4" />
+        <line x1="-18.4" y1={SEAL_Y} x2="-16.4" y2={SEAL_Y} />
+        <line x1="-16.4" y1={SEAL_Y} x2="-13.4" y2={SEAL_Y} opacity="0.4" />
       </g>
       <text
         x="-18.9"
@@ -161,7 +162,7 @@ export default function BaseDrawing({
         fontSize="1.9"
         fill="var(--color-ink-2)"
       >
-        0,94
+        1,0
       </text>
 
       {/* Tiefe des Bodeneinzugs */}
