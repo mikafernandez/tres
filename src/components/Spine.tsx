@@ -103,7 +103,7 @@ export default function Spine() {
               style={{ top: `${t.top * 100}%` }}
             >
               <span
-                className={`block h-px transition-all duration-300 ${line} ${
+                className={`block h-px transition-[width] duration-300 ${line} ${
                   i === active ? "w-4" : "w-2"
                 }`}
               />

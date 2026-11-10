@@ -1,6 +1,7 @@
 import { manifest } from "@/lib/assets";
 import { AssetsProvider } from "@/components/Assets";
 import Spine from "@/components/Spine";
+import Reveal from "@/components/Reveal";
 import Hero from "@/components/Hero";
 import Reduction from "@/components/Reduction";
 import Sequence from "@/components/Sequence";
@@ -18,6 +19,7 @@ export default function Home() {
   return (
     <AssetsProvider value={manifest}>
       <Spine />
+      <Reveal />
       <main id="inhalt">
         <Hero />
         <Reduction />

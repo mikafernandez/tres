@@ -107,7 +107,7 @@ export default function Sequence() {
                     {sequence.stops.map((s, i) => (
                       <div
                         key={s.ref}
-                        className={`transition-all duration-500 ease-out ${
+                        className={`transition-[opacity,transform,filter] duration-500 ease-out ${
                           i === active
                             ? "relative opacity-100 blur-0"
                             : "pointer-events-none absolute inset-0 translate-y-3 opacity-0 blur-[2px]"

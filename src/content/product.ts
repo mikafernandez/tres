@@ -14,7 +14,7 @@ export const brand = {
 
 export const hero = {
   headline: ["Ein Behälter.", "Drei Kammern.", "Kein Zubehör."],
-  lede: "Salz oben, Limette unten, 20 ml Tequila dazwischen. Die komplette Reihenfolge steckt schon in der Flasche — kein Streuer, keine Limettenscheibe, keine zweite Hand.",
+  lede: "Salz oben, Limette unten, 20 ml Tequila dazwischen. Die komplette Reihenfolge steckt schon in der Flasche. Kein Streuer, keine Limettenscheibe, keine zweite Hand.",
   cta: "Auf die Liste",
   ctaSub: "So funktioniert der Deckel",
   dragHint: "Ziehen zum Drehen",
@@ -36,7 +36,7 @@ export const reduction = {
     { n: "1", label: "mit TRES", tone: "after" as const },
   ],
   closing:
-    "TRES nutzt zwei Hohlräume, die an jeder Shot-Flasche ohnehin vorhanden sind und bisher leer bleiben: den Raum unter dem Schraubdeckel und den eingezogenen Flaschenboden. Die Außenkontur bleibt identisch — gleiche Stellfläche im Regal, gleiche Kartonage.",
+    "TRES nutzt zwei Hohlräume, die an jeder Shot-Flasche ohnehin vorhanden sind und bisher leer bleiben: den Raum unter dem Schraubdeckel und den eingezogenen Flaschenboden. Die Außenkontur bleibt identisch. Gleiche Stellfläche im Regal, gleiche Kartonage.",
 };
 
 /* ---------- Abschnitt: Scroll-Sequenz ---------- */
@@ -74,7 +74,7 @@ export const sequence = {
       at: 0.94,
       ref: "110",
       title: "Siegelfolie",
-      body: "62 µm Aluminiumverbund mit säurefester Siegelschicht, bei etwa 160 °C aufgesiegelt. Die Siegelfläche liegt 1 mm hinter dem Standring zurück — abgestellt berührt die Folie nie den Tisch.",
+      body: "62 µm Aluminiumverbund mit säurefester Siegelschicht, bei etwa 160 °C aufgesiegelt. Die Siegelfläche liegt 1 mm hinter dem Standring zurück. Abgestellt berührt die Folie nie den Tisch.",
     },
   ],
 };
@@ -84,7 +84,7 @@ export const sequence = {
 export const cap = {
   kicker: "Der Deckel",
   headline: "Ein Salzstreuer, der den Shot nicht öffnet",
-  body: "Die Klappe sitzt an einem 0,3 mm dünnen Filmscharnier und schwenkt quer zur Schraubachse. Wer sie aufreißt, dreht den Verschluss nicht mit — und wer den Verschluss abdreht, öffnet die Salzkammer nicht. Die beiden Bewegungen haben nichts miteinander zu tun.",
+  body: "Die Klappe sitzt an einem 0,3 mm dünnen Filmscharnier und schwenkt quer zur Schraubachse. Wer sie aufreißt, dreht den Verschluss nicht mit, und wer den Verschluss abdreht, öffnet die Salzkammer nicht. Die beiden Bewegungen haben nichts miteinander zu tun.",
   parts: [
     { ref: "230", name: "Verschlussglied", note: "Klappe, 135 Grad Schwenk" },
     { ref: "220", name: "Austrittsöffnungen", note: "4 × Ø 1,8 mm, Teilkreis 14 mm" },
@@ -170,7 +170,7 @@ export const ritual = {
       n: "03",
       ref: "110",
       title: "Folie ab, Boden an den Mund",
-      body: "Beim Trinken zeigt der Boden ohnehin nach oben, die Folie liegt griffbereit. Lasche greifen, abziehen, die Flasche aus dem Handgelenk zurückschwenken und den Boden an den Mund führen — der Saft läuft über die geneigte Wand aus.",
+      body: "Beim Trinken zeigt der Boden ohnehin nach oben, die Folie liegt griffbereit. Lasche greifen, abziehen, die Flasche aus dem Handgelenk zurückschwenken und den Boden an den Mund führen. Der Saft läuft über die geneigte Wand aus.",
       meta: "5 ml",
       image: "ritual-03",
     },

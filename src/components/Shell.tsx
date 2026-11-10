@@ -35,7 +35,7 @@ export function SectionHead({
   id?: string;
 }) {
   return (
-    <header id={id} className="scroll-mt-24">
+    <header id={id} data-reveal className="scroll-mt-24">
       <div className="flex items-center gap-3">
         {refNo && (
           <span
@@ -57,7 +57,8 @@ export function SectionHead({
         </span>
       </div>
       <div
-        className={`mt-3 h-px w-full ${night ? "bg-salt/20" : "bg-ink/20"}`}
+        data-rule
+        className={`mt-3 h-px w-full origin-left ${night ? "bg-salt/20" : "bg-ink/20"}`}
       />
       <h2
         className={`t-display mt-6 max-w-[20ch] text-[clamp(2rem,4.2vw,3.4rem)] ${
@@ -79,7 +80,7 @@ export function DataRows({
   night?: boolean;
 }) {
   return (
-    <dl className="w-full">
+    <dl data-stagger className="w-full">
       {rows.map((r) => (
         <div
           key={r.k}

@@ -23,8 +23,8 @@ const newsreader = Newsreader({
 export const metadata: Metadata = {
   metadataBase: new URL("https://tres.example"),
   title: {
-    default: "TRES — Salz oben. Limette unten. Tequila dazwischen.",
-    template: "%s — TRES",
+    default: "TRES. Salz oben, Limette unten, Tequila dazwischen.",
+    template: "%s · TRES",
   },
   description:
     "Ein 20-ml-Tequila-Shot, der Salz und Limette in zwei eigenen Kammern mitbringt: im Schraubverschluss und im Flaschenboden. Zum Patent angemeldet.",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "de_DE",
     siteName: "TRES",
-    title: "TRES — der ganze Shot in einem Behälter",
+    title: "TRES. Der ganze Shot in einem Behälter",
     description:
       "Salz im Deckel, Limette im Boden, 20 ml Tequila dazwischen. Drei Behältnisse werden eins.",
     /* wird gesetzt, sobald public/renders/og.webp vorhanden ist */
