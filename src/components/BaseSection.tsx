@@ -1,17 +1,21 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { Container, SectionHead, DataRows } from "./Shell";
 import PartsList from "./PartsList";
 import BaseDrawing from "./BaseDrawing";
 import { base } from "@/content/product";
+import { useScrollDemo } from "@/lib/useScrollDemo";
 
 export default function BaseSection() {
+  const section = useRef<HTMLElement>(null);
   const [peeled, setPeeled] = useState(false);
   const [active, setActive] = useState<string | null>(null);
+  useScrollDemo(section, setPeeled);
 
   return (
     <section
+      ref={section}
       id="boden"
       data-part="130"
       data-name="Bodenkammer"

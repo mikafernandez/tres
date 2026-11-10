@@ -30,7 +30,7 @@ export default function Editions() {
           <p className="t-body mt-7 text-salt/70">{editions.body}</p>
         </div>
 
-        <ul className="mt-14 grid gap-px border border-salt/15 bg-salt/15 sm:grid-cols-2 lg:grid-cols-4">
+        <ul data-stagger className="mt-14 grid gap-px border border-salt/15 bg-salt/15 sm:grid-cols-2 lg:grid-cols-4">
           {editions.items.map((e) => {
             const f = FILLS[e.accent];
             return (

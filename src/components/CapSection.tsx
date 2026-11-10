@@ -1,17 +1,21 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import { Container, SectionHead, DataRows } from "./Shell";
 import PartsList from "./PartsList";
 import CapDrawing from "./CapDrawing";
 import { cap } from "@/content/product";
+import { useScrollDemo } from "@/lib/useScrollDemo";
 
 export default function CapSection() {
+  const section = useRef<HTMLElement>(null);
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState<string | null>(null);
+  useScrollDemo(section, setOpen);
 
   return (
     <section
+      ref={section}
       id="deckel"
       data-part="150"
       data-name="Schraubverschluss"

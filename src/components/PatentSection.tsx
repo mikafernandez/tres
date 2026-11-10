@@ -33,7 +33,7 @@ export default function PatentSection() {
               </footer>
             </blockquote>
 
-            <dl className="mt-12 border-t border-salt/20">
+            <dl data-stagger className="mt-12 border-t border-salt/20">
               {patent.rows.map((r) => (
                 <div
                   key={r.k}
